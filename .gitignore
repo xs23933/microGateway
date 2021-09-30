@@ -3,3 +3,4 @@ db
 dist
 .vscode
 go.sum
+*.yml
