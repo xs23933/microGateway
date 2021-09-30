@@ -1,0 +1,8 @@
+debug: true
+listen: 8080
+
+ReadTimeout: 10
+ReadHeaderTimeout: 2
+WriteTimeout: 10
+IdleTimeout: 4
+MaxHeaderBytes: 20480
