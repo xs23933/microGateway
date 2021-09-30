@@ -1,7 +1,6 @@
-package core
+package microgateway
 
 import (
-	"core/proxy"
 	"encoding/json"
 	"html/template"
 	"log"
@@ -11,6 +10,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/xs23933/microgateway/proxy"
 
 	"github.com/xujiajun/nutsdb"
 )

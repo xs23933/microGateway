@@ -1,4 +1,4 @@
-module core
+module github.com/xs23933/microgateway
 
 go 1.17
 
