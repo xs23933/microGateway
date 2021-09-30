@@ -17,16 +17,20 @@ name string
 ## health check  Optional
 
 ### check method
-check.method string get | post | options | put | delete
+
+> check.method string get | post | options | put | delete
 
 ### check path 
-check.path string /check or you path, default "" if not check
+
+> check.path string /check or you path, default "" if not check
 
 ### interval unit second
-check.interval int check interval , default 30 second
+
+> check.interval int check interval , default 30 second
 
 ### timeout unit second
-check.timeout int check timeout, default 30 second
+
+> check.timeout int check timeout, default 30 second
 
 ## server configure
 {host}: [{api}, {api}]
@@ -38,7 +42,7 @@ check.timeout int check timeout, default 30 second
 * {microservice.ip} you micro service address
 
 
-POST http://{mgw.addr}/mgw/sign
+> POST http://{mgw.addr}/mgw/sign
 
 Payload:
 
@@ -62,3 +66,20 @@ Payload:
   ]
 }
 ```
+
+## License
+
+[The MIT License (MIT)](https://raw.githubusercontent.com/xs23933/microGateway/master/License)
+
+
+## Credits
+
+> some code from Caddy project 
+
+This repo relies on the following third-party projects:
+
+- In production:
+   - [caddy](https://github.com/caddyserver/caddy)
+   - [quic-go](github.com/lucas-clemente/quic-go)
+   - [nustdb](github.com/xujiajun/nutsdb)
+   - [yaml.v2](gopkg.in/yaml.v2)
